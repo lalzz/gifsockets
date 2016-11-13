@@ -27,8 +27,7 @@ import org.apache.commons.io.IOUtils;
 
 public class AnimatedGifEncoder {
 
-	protected int width; // image size
-	protected int height;
+	protected int width, height; //image dimensions
 	protected Color transparent = null; // transparent color if given
 	protected int transIndex; // transparent index in color table
 	protected int repeat = -1; // no repeat
